@@ -1,0 +1,24 @@
+{
+  "name": "unhomoglyph",
+  "version": "1.0.0",
+  "description": "Replace all homoglyphs with base characters.",
+  "keywords": [
+    "homoglyph",
+    "homoglyphs"
+  ],
+  "repository": "nodeca/promise-memoize",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "data.json"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha",
+    "update": "node update.js && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0"
+  }
+}
