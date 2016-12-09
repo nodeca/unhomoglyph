@@ -6,7 +6,7 @@
     "homoglyph",
     "homoglyphs"
   ],
-  "repository": "nodeca/promise-memoize",
+  "repository": "nodeca/unhomoglyph",
   "license": "MIT",
   "files": [
     "index.js",
