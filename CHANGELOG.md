@@ -1,3 +1,10 @@
+1.0.1 / 2017-03-05
+------------------
+
+- Update mapping data to version 9.0.0
+  http://www.unicode.org/Public/security/latest/confusables.txt
+
+
 1.0.1 / 2016-12-09
 ------------------
 

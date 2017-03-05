@@ -5,7 +5,7 @@
 
 > Replace all homoglyphs with base characters. Useful to detect similar strings.
 
-Data source - [Recommended confusable mapping for IDN](http://www.unicode.org/Public/security/latest/confusables.txt), v8.0.0.
+Data source - [Recommended confusable mapping for IDN](http://www.unicode.org/Public/security/latest/confusables.txt), v9.0.0.
 
 
 ## Install
