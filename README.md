@@ -28,6 +28,17 @@ const unhomoglyph = require('unhomoglyph');
 
 console.log(unhomoglyph('AΑАᎪᗅᴀꓮ')); // => AAAAAAA
 console.log(unhomoglyph('m'));        // => rn (r + n)
+
+//
+// Compare nicknames
+//
+
+const username1 = 'm';
+const username2 = 'rn';
+
+if (unhomoglyph(username1) === unhomoglyph(username2)) {
+  console.log(`"${username1}" and "${username2} look similar`);
+}
 ```
 
 
