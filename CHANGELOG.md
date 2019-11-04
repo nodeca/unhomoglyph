@@ -3,6 +3,7 @@
 
 - Update mapping data to version 12.1.0
   http://www.unicode.org/Public/security/latest/confusables.txt
+- Dev deps bump.
 
 1.0.2 / 2017-03-05
 ------------------
