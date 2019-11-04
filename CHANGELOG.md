@@ -1,3 +1,9 @@
+1.0.3 / 2019-11-04
+------------------
+
+- Update mapping data to version 12.1.0
+  http://www.unicode.org/Public/security/latest/confusables.txt
+
 1.0.2 / 2017-03-05
 ------------------
 
