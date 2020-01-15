@@ -9,7 +9,7 @@ const fs      = require('fs');
 const path    = require('path');
 
 
-const URL = 'http://www.unicode.org/Public/security/latest/confusables.txt';
+const URL = 'https://www.unicode.org/Public/security/latest/confusables.txt';
 const SAVE_PATH = path.join(__dirname, 'data.json');
 
 
