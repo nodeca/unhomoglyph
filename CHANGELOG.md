@@ -1,3 +1,9 @@
+1.0.5 / 2020-03-03
+------------------
+
+- Include missed TS definition into npm package.
+
+
 1.0.4 / 2020-02-05
 ------------------
 

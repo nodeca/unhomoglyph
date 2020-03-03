@@ -1,6 +1,6 @@
 {
   "name": "unhomoglyph",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Replace all homoglyphs with base characters.",
   "keywords": [
     "homoglyph",
