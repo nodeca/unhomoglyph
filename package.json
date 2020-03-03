@@ -10,7 +10,8 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "data.json"
+    "data.json",
+    "index.d.ts"
   ],
   "scripts": {
     "lint": "eslint .",
