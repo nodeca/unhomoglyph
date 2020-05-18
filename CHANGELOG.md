@@ -1,4 +1,4 @@
-1.0.6 / WIP
+1.0.6 / 2020-05-18
 ------------------
 
 - Update mapping data to version 13.0.0
