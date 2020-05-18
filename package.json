@@ -19,7 +19,7 @@
     "update": "node update.js && npm test"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "mocha": "^6.2.2"
+    "eslint": "^7.0.0",
+    "mocha": "^7.1.2"
   }
 }
