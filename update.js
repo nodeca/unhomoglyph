@@ -37,8 +37,14 @@ function save(str) {
       result[src] = dst;
     });
 
+  let output = JSON.stringify(result, null, '  ')
+    // Workaround for ES9 <=> ES10 inconsistency
+    // https://github.com/nodeca/unhomoglyph/issues/7
+    // https://github.com/facebook/hermes/issues/235#issuecomment-623606572
+    .replace(/\u2028/g, '\\u2028')
+    .replace(/\u2029/g, '\\u2029');
 
-  fs.writeFileSync(SAVE_PATH, JSON.stringify(result, null, '  '));
+  fs.writeFileSync(SAVE_PATH, output);
   console.log('Done!');
 }
 

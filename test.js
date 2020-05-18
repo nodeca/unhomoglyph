@@ -26,4 +26,8 @@ describe('unhomoglyph', function () {
     assert.strictEqual(unhomoglyph('1abcаа'), 'labcaa');
   });
 
+  it('2028 & 2029 should be ok after replace in updater', function () {
+    assert.strictEqual(data['\u2028'], ' ');
+    assert.strictEqual(data['\u2029'], ' ');
+  });
 });

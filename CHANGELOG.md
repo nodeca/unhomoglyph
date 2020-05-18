@@ -3,6 +3,7 @@
 
 - Update mapping data to version 13.0.0
   http://www.unicode.org/Public/security/latest/confusables.txt
+- Encode `\u2028` & `\u2029` as text, #7.
 
 
 1.0.5 / 2020-03-03
